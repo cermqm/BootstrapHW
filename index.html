@@ -12,34 +12,15 @@
     <title>Hello BootStrap</title>
     <link rel="stylesheet" href="style.css">
 
-    <!-- Navigation bar -->
-    <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <h2 style="background-color:lightseagreen color: white"><span>Michael A. Mink</span></h2>
-            </div>
-            <div class="navcenter">
-                <nav class="navbar navbar-expand-xl navbar-light">
-                    </button>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    </div>
-    <hr>
-    <!-- Navigation bar -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $("#nav-placeholder").load("navbar.html");
+    </script>
+    <!--end of Navigation bar-->
+
 </head>
 
 <body>
