@@ -14,8 +14,9 @@ head {
     margin-top: 0px;
 }
 
-h3 {
-    color: lightseagreen
+#h3 {
+    color: lightseagreen;
+    text-align: left;
 }
 
 h2,
