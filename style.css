@@ -37,12 +37,13 @@ h2 span {
     padding: 0px 15px 15px 15px;
 }
 
-#head-navbar {
+
+/* #head-navbar {
     width: 100%;
     white-space: nowrap;
     display: inline-block;
     overflow: hidden;
-}
+} */
 
 .nav>li {
     display: inline-block;
