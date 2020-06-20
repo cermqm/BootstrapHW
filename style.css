@@ -72,11 +72,12 @@ h2 span {
 
 /* Sticky footer css */
 
-.container {
+
+/* .container {
     width: auto;
     max-width: 680px;
     padding: 0 15px;
-}
+} */
 
 .footer {
     background-color: #f5f5f5;
