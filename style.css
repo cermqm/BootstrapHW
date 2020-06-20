@@ -1,9 +1,3 @@
-/* .card-img-top {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-} */
-
 .navcenter {
     text-align: center;
     margin: auto;
@@ -14,13 +8,12 @@ head {
     margin-top: 0px;
 }
 
-#h3 {
+#headerstyling {
     color: lightseagreen;
     text-align: left;
     border-bottom: 2px solid rgba(60, 60, 74, 0.3);
 }
 
-h2,
 h3 {
     text-align: center;
     color: white;
