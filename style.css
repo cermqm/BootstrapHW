@@ -87,3 +87,8 @@ h2 span {
 
 
 /* Sticky footer css */
+
+body {
+    background-image: url("background.jpg");
+    background-size: auto;
+}
